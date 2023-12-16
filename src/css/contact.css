@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.contact{
+    width: 100%;
+    padding:1rem 2rem;  
+    text-align: center;
+}
+.contact-container{
+    width:50%;
+    margin: 0.5rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 1.5rem yellow;
+    padding: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 30;
+}
+.contact-container li{
+    list-style: none;
+    width: 100%;
+    padding: 1rem auto;
+    margin: 0.2rem auto 0.2rem 0rem;
+}
+.contact-container li h2{
+    margin: 1.5rem auto 0.2rem auto;
+}
+.contact-container li p{
+    color: white;
+}
+.contact-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.contact-container li a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 790px) {
+    .contact{
+        width: 100%;
+        padding:0.2rem;
+    }
+    .contact-container li h2{
+        font-size:24px;
+    }
+    .contact-container {
+        width: 96%;
+        margin: 20% auto;
+        z-index: inherit;
+    }
+    .contact-link{
+        font-size: 1rem;
+    }
+}
