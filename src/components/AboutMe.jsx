@@ -9,7 +9,6 @@ function AboutMe() {
         <p className='me-text'> 
             <b><a className="resume" href="https://drive.google.com/file/d/1ZhUnv4E5RH3usob5WMK0semtqBnVOLcS/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
             <b>DoB:</b> 30/04/2003<br /><br />
-            <b>Open for: </b>Web Dev internships / freelancing.<br /><br />
             <b>Communication languages:</b> English, Kannada, Hindi and basic German.<br /><br/> 
             <i class='fas fa-map-marker-alt'>Bangalore, India</i> 
             <br /> 
@@ -47,6 +46,8 @@ function AboutMe() {
                 Class 1 to class 10 in C.B.S.E. board<br />
                 GPA: 8.24</li>
             </ul>
+            <br/>
+            <b>Open for: </b>Web Dev internships / freelancing.<br />
         </p>
       </div>
       </div>
