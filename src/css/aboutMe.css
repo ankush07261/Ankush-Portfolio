@@ -54,14 +54,14 @@ li{
     }
     .text{
         margin-top: 3rem;
-        margin-left: 10%;
-        width: 96%;
+        margin-left: 2%;
+        width: 100%;
         box-shadow: none;
         padding: 0.2rem;
         border: none;
     }
     .me-text{
-        padding: 0.2rem;
+        padding: 0.4rem;
         width: 94%;
     }
 }
