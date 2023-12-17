@@ -7,12 +7,32 @@ function AboutMe() {
     <div className='aboutMe-container'>
       <div className="text">
         <p className='me-text'> 
-            <b><a className="resume" href="https://drive.google.com/file/d/16N8qp47wK9q5-P3PVxJbd-uZjR4zSlG3/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
+            <b><a className="resume" href="https://drive.google.com/file/d/1ZhUnv4E5RH3usob5WMK0semtqBnVOLcS/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
             <b>DoB:</b> 30/04/2003<br /><br />
-            <b>Open for: </b>Web Dev internships / freelancing<br/> &#40; Work from home preferred &#41;.<br /><br />
+            <b>Open for: </b>Web Dev internships / freelancing.<br /><br />
             <b>Communication languages:</b> English, Kannada, Hindi and basic German.<br /><br/> 
             <i class='fas fa-map-marker-alt'>Bangalore, India</i> 
             <br /> 
+            <b>Why me?</b><br />
+            <ul>
+              <li>
+                <b>Creative Thinking:</b>
+                <br />
+                I get uniqueness, creativity and analytical thinking to the projects i work on.
+              </li>
+              <li>
+                <b>Staying updated:</b>
+                <br />
+                I stay updated with newer tech trends and love exploing innovative solutions. 
+              </li>
+              <li>
+                <b>Collaborative spirit:</b>
+                <br />
+                I belive that team work makes "dream work" and enjoy working with diverse talents and perspectives.
+              </li>
+
+            </ul>
+            <br/>
             <b>Education: </b><br />
             <ul>
               <li>Jyothy Institute of Technology, Bangalore<br />&#40; 2021 - 2025 &#41;<br />
