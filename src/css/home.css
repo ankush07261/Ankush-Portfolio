@@ -150,6 +150,7 @@
         background-color: rgb(52, 52, 52);
     }
     .web-built p{
+        margin: 1.5rem auto 1rem auto;
         font-size: 16px;
         height: auto;
     }
