@@ -7,7 +7,7 @@ function AboutMe() {
     <div className='aboutMe-container'>
       <div className="text">
         <p className='me-text'> 
-            <b><a className="resume" href="https://drive.google.com/file/d/1ZhUnv4E5RH3usob5WMK0semtqBnVOLcS/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
+            <b><a className="resume" href="https://drive.google.com/file/d/16N8qp47wK9q5-P3PVxJbd-uZjR4zSlG3/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
             <b>Open for: </b>Web Dev internships / freelancing.<br /><br />
             <b>Communication languages:</b> English, Kannada, Hindi and basic German.<br /><br/> 
             <i class='fas fa-map-marker-alt'>Bangalore, India</i> 
