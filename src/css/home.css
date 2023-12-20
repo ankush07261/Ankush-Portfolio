@@ -37,6 +37,24 @@
     margin: auto 1rem auto auto;
     border: 2px solid black;
 }
+.socials-container{
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height:fit-content;
+    margin: auto 1rem auto auto;
+    display: flex;
+    gap: 0.5rem;
+}
+.socials-container a{
+    text-decoration: none;
+}
+.socials-container a img{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .resume {
     text-decoration: none;
     color: yellow;
@@ -116,6 +134,10 @@
         height: fit-content;
         margin: 20% 0;
         padding: 0;
+    }
+    .socials-container{
+        width:60%;
+        margin: 1rem auto 0 auto;
     }
     .line{
         display:none;
