@@ -18,7 +18,7 @@
     z-index: 30;
 }
 input, textarea{
-    border: 2px solid white;
+    border: 2px solid grey;
     border-radius: 6px;
     padding:0.5rem;
 }
