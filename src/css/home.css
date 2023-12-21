@@ -68,6 +68,8 @@
 .my-profile-image{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .line{
     width:0;
@@ -115,7 +117,7 @@
     white-space: nowrap;
     overflow: hidden;
     animation: 
-        typing 3s steps(40),
+        typing 4s steps(40),
         cursor 2s step-end infinite alternate;
     animation-iteration-count: infinite;
 }
