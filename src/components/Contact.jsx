@@ -1,19 +1,39 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../css/contact.css';
-import {BsGithub, BsLinkedin} from 'react-icons/bs'
-import {SiGmail,SiInstagram} from 'react-icons/si'
+import { useNavigate } from 'react-router-dom'
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+
+  const form = useRef();
+  let navigate = useNavigate();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kubxz5s', 'template_ik7qq8j', form.current, 'fuiPBIeol6D2d-WNC')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    navigate("/")
+    window.alert("Message sent");
+  };
+
   return (
     <div className='contact'>
-      <ul className="contact-container">
-        <li><h2>I can be found on ...</h2></li>
-        <hr/><br/>
-        <li><a className='contact-link' href="https://github.com/ankush07261" target="_blank" rel="noreferrer"><BsGithub/>ankush07261</a></li><hr/><br/>
-        <li><a className='contact-link' href="mailto:ankushhegde30@gmail.com" target="_blank" rel="noreferrer"><SiGmail/>ankushhegde30@gmail.com</a></li><hr/><br/>
-        <li><a className='contact-link' href="https://www.linkedin.com/in/ankush-hegde-9144b3194/" target="_blank" rel="noreferrer"><BsLinkedin/>Ankush Hegde</a></li><hr/><br/>
-        <li><a className='contact-link' href="https://www.instagram.com/ankush_hegde____/" target="_blank" rel="noreferrer"><SiInstagram/>ankush_hegde____</a></li><br/>
-      </ul>
+      <h3>Connect with me by filling this form...</h3>
+      <br/>
+      <form ref={form} onSubmit={sendEmail} className='contact-container'>
+      <label>Name</label>
+      <input type="text" name="user_name" /><br/><br/>
+      <label>Email</label>
+      <input type="email" name="user_email" /><br/><br/>
+      <label>Message</label>
+      <textarea name="message" className='message'/>
+      <input type="submit" value="Send" className='submit-btn'/>
+    </form>
     </div>
   )
 } 
