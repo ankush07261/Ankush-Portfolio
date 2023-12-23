@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../css/skills.css';
+import '../css/mobileBtns.css';
+import { Link } from 'react-router-dom';
 import { webDev, cyberSecurity, others } from '../constants/Skills';
 
 function Skills() {
@@ -9,6 +11,7 @@ function Skills() {
   const [othSkill, setOthSkill] = useState(others);
 
   return (
+    <>
     <div className='skill'>
       <h1>MY SKILLS</h1>
       <div className="skill-container">
@@ -16,10 +19,8 @@ function Skills() {
           <h2>Web development</h2>
           <div className="skill-card" >
           {
-            webSkill.map((webskill, index)=>(
-              
+            webSkill.map((webskill, index)=>( 
                 <h3 key={index}>{webskill.title }</h3>
-          
             ))
           }
           </div>
@@ -30,7 +31,6 @@ function Skills() {
           {
             cyberSkill.map((cybskill, index)=>(
                 <h3 key={index}>{cybskill.title }</h3>
-          
             ))
           }
           </div>
@@ -45,10 +45,12 @@ function Skills() {
             ))
           }
           </div>
-        </div>
-        
+        </div> 
       </div>
-    </div>
+      </div>
+      <br/>
+      <Link to='/experience' className='mobile-nav-elements'>View my Experience &rArr;</Link>
+    </>
   )
 }
 
