@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import '../css/experience.css';
+import '../css/mobileBtns.css';
+import { Link } from 'react-router-dom';
 import { demoprojects} from '../constants/Experience';
 function MyWork() {
 
@@ -7,7 +9,10 @@ function MyWork() {
   // const [project, setProject] = useState(projects);
 
   return (
-    <div className="myWork">
+    <>
+      <div className="myWork">
+        <br/>
+        <Link to='/contact' className='mobile-nav-elements'>Contact me &rArr;</Link>
       {/* <h2>Projects I have worked on: </h2>
       <br/>
       <div className="projects">
@@ -46,7 +51,9 @@ function MyWork() {
           ))
         }
       </div>
-     </div> 
+      </div> 
+      <Link to='/contact' className='mobile-nav-elements'>Contact me &rArr;</Link>
+    </>
   )
 }
 
