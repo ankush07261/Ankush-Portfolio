@@ -1,5 +1,7 @@
 import React from 'react'
 import '../css/aboutMe.css';
+import '../css/mobileBtns.css';
+import { Link } from 'react-router-dom';
 
 function AboutMe() {
   return (
@@ -7,7 +9,7 @@ function AboutMe() {
     <div className='aboutMe-container'>
       <div className="text">
         <p className='me-text'> 
-            <b><a className="resume" href="https://drive.google.com/file/d/16N8qp47wK9q5-P3PVxJbd-uZjR4zSlG3/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
+            <b><a className="resume" href="https://drive.google.com/file/d/1wn5TJj9w_TvSz0kdkqy0A0f5svm02_-6/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
             <b>Open for: </b>Web Dev internships / freelancing.<br /><br />
             <b>Communication languages:</b> English, Kannada, Hindi and basic German.<br /><br/> 
             <i class='fas fa-map-marker-alt'>Bangalore, India</i> 
@@ -45,8 +47,8 @@ function AboutMe() {
               <li>Prarthana Education Society <br />&#40; 2009 - 2019 &#41;.<br/>
                 Class 1 to class 10 in C.B.S.E. board<br />
                 GPA: 8.24</li>
-            </ul>
-            <br/>
+            </ul><br />
+            <Link to='/skills' className='mobile-nav-elements'>View my Skills &rArr;</Link><br/><br/>
             <b>DoB:</b> 30/04/2003<br />
         </p>
       </div>
