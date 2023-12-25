@@ -24,10 +24,9 @@ function Home() {
         <div className="line"></div>
         <div className="sub-container about-me">
           <p className='me-text-primary'>
-            I am a <span className="highlight">Full-stack Web developer</span> who is looking forward to work on any Website projects.
-            <br/><br/>
-            I build good interactive and responsive web applications with my skills.<br /><br />
-            I am also into <span className="highlight">Cybersecurity</span>. <br /><br />
+            Hello there <span className="hello">👋🏻</span>,<br /><br/>
+            I am a <span className="highlight">Full-stack Web developer</span> who can build good interactive and responsive web applications.<br /><br />
+            I am also interested in <span className="highlight">Cybersecurity</span>. <br /><br />
             <b><a className="resume" href="https://drive.google.com/file/d/1wn5TJj9w_TvSz0kdkqy0A0f5svm02_-6/view?usp=sharing" target="_blank" rel="noreferrer"> My resume</a></b>
           </p>
           <Link to='/about-me' className='mobile-nav-elements'>About me &rArr;</Link>
