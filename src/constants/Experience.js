@@ -13,7 +13,7 @@ export const projects = [
     {
         image:EDCJIT ,
         title: "eDC|JIT",
-        description:"An official website for the Enterprenuership Development Club in Jyothy Institute of Technology.",
+        description:"An official website for the Entrepreneurship Development Club in Jyothy Institute of Technology.",
         liveURL: "https://edcjit.in/",
     }
 ]
