@@ -1,22 +1,22 @@
-import drumKit from '../images/MyWork-SS/drumKit.png'
-import simonGame from '../images/MyWork-SS/simonGame.png'
+import drumKit from '../images/MyWork-SS/drumKit.png';
+import simonGame from '../images/MyWork-SS/simonGame.png';
 // import todoList from '../images/MyWork-SS/todoList.png'
 // import blogWebsite from '../images/MyWork-SS/BlogPage.png'
-import weatherAPI from '../images/MyWork-SS/weatherAPI.png'
-import React_crud from '../images/MyWork-SS/Redux-CRUD.png'
-import randomQuote from '../images/MyWork-SS/quoteGen.png'
-import imgCarousel from '../images/MyWork-SS/imgCarousel.png'
-import TempBMI from '../images/MyWork-SS/TempBMI.png'
+import weatherAPI from '../images/MyWork-SS/weatherAPI.png';
+import React_crud from '../images/MyWork-SS/Redux-CRUD.png';
+import randomQuote from '../images/MyWork-SS/quoteGen.png';
+import imgCarousel from '../images/MyWork-SS/imgCarousel.png';
+import TempBMI from '../images/MyWork-SS/TempBMI.png';
+import EDCJIT from '../images/MyWork-SS/edcjit.png';
 
-// export const projects = [
-//     {
-//         image:{} ,
-//         title: "",
-//         description:"",
-//         gitURL: "",
-//         liveURL: "",
-//     }
-// ]
+export const projects = [
+    {
+        image:EDCJIT ,
+        title: "eDC|JIT",
+        description:"An official website for the Enterprenuership Development Club in Jyothy Institute of Technology.",
+        liveURL: "https://edcjit.in/",
+    }
+]
 
 export const demoprojects = [
     {
