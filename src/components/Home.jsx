@@ -24,10 +24,10 @@ function Home() {
         <div className="line"></div>
         <div className="sub-container about-me">
           <p className='me-text-primary'>
-            Hello there <span className="hello">👋🏻</span>,<br /><br/>
+            Hello there<span className="hello">👋🏻</span>,<br /><br/>
             I am a <span className="highlight">Full-stack Web developer</span> who can build good interactive and responsive web applications.<br /><br />
             I am also interested in <span className="highlight">Cybersecurity</span>. <br /><br />
-            <b><a className="resume" href="https://drive.google.com/file/d/1D11c7vQK3PHpYV8aUfo0w-57lBfRgiYu/view?usp=sharing" target="_blank" rel="noreferrer"> My resume</a></b>
+            <b><a className="resume" href="https://drive.google.com/file/d/1u7op3zSqcNOtoH1T4ReVPXXxksPaJNdV/view?usp=sharing" target="_blank" rel="noreferrer"> My resume</a></b>
           </p>
           <Link to='/about-me' className='mobile-nav-elements'>About me &rArr;</Link>
         </div>
