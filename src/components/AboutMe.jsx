@@ -9,7 +9,7 @@ function AboutMe() {
     <div className='aboutMe-container'>
       <div className="text">
         <p className='me-text'> 
-            <b><a className="resume" href="https://drive.google.com/file/d/1D11c7vQK3PHpYV8aUfo0w-57lBfRgiYu/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
+            <b><a className="resume" href="https://drive.google.com/file/d/1u7op3zSqcNOtoH1T4ReVPXXxksPaJNdV/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
             <b>Open for: </b>Web Dev internships / freelancing.<br /><br />
             <b>Communication languages:</b> English, Kannada, Hindi and basic German.<br /><br/> 
             <i class='fas fa-map-marker-alt'>Bangalore, India</i> 
@@ -19,19 +19,18 @@ function AboutMe() {
               <li>
                 <b>Creative Thinking:</b>
                 <br />
-                I get uniqueness, creativity and analytical thinking to the projects i work on.
+                I implement creativity and analytical thinking to the projects i work on.
               </li>
               <li>
                 <b>Staying updated:</b>
                 <br />
-                I stay updated with newer tech trends and love exploing innovative solutions. 
+                I stay updated with newer tech trends and love exploring innovative solutions. 
               </li>
               <li>
                 <b>Collaborative spirit:</b>
                 <br />
-                I belive that team work makes "dream work" and enjoy working with diverse talents and perspectives.
+                I believe that team work makes "dream work" and enjoy working with diverse talents and perspectives.
               </li>
-
             </ul>
             <br/>
             <b>Education: </b><br />
@@ -50,12 +49,11 @@ function AboutMe() {
             </ul><br />
             <Link to='/skills' className='mobile-nav-elements'>View my Skills &rArr;</Link><br/><br/>
             <b>DoB:</b> 30/04/2003<br />
-        </p>
-      </div>
+          </p>
+        </div>
       </div>
       <div className="footer-container">
-      </div>
-    
+    </div> 
     </>
   )
 }
