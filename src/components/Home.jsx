@@ -27,7 +27,7 @@ function Home() {
             Hello there<span className="hello">👋🏻</span>,<br /><br/>
             I am a <span className="highlight">Full-stack Web developer</span> who can build good interactive and responsive web applications.<br /><br />
             I am also interested in <span className="highlight">Cybersecurity</span>. <br /><br />
-            <b><a className="resume" href="https://drive.google.com/file/d/1a6TQws6-g9TCEym0-okK_gXJ5DWdl2d-/view?usp=sharing" target="_blank" rel="noreferrer"> My resume</a></b>
+            <b><a className="resume" href="https://drive.google.com/file/d/1zpL8Pfo5QMnPPAwuaLzKKD5E3ZR22wf6/view?usp=sharing" target="_blank" rel="noreferrer"> My resume</a></b>
           </p>
           <Link to='/about-me' className='mobile-nav-elements'>About me &rArr;</Link>
         </div>
