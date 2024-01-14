@@ -6,10 +6,12 @@
     background-color:transparent;
     text-decoration: none;
     display: none;
-    margin: auto auto 1rem 2rem;
+    margin: 1rem 2rem 1rem auto;
 }
 @media only screen and (max-width: 870px){
     .mobile-nav-elements{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
