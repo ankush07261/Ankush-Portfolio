@@ -15,17 +15,21 @@ export const webDev = [
         title: "ReactJS"
     },
     {
+        title: "Next.JS"
+    },
+    {
         title: "NodeJS"
     },
     {
         title: "HTML"
     },
     {
-        title: "CSS / Bootstrap"
+        title: "SQL"
     },
     {
-        title: "SQL"
-    }
+        title: "CSS / Bootstrap"
+    },
+    
 ]
 
 export const cyberSecurity = [
