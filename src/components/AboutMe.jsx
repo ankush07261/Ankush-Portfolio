@@ -9,7 +9,7 @@ function AboutMe() {
     <div className='aboutMe-container'>
       <div className="text">
         <p className='me-text'> 
-            <b><a className="resume" href="https://drive.google.com/file/d/1YqUiKvd7UHV-Y-WbSbGYrLWutT129V2K/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
+            <b><a className="resume" href="https://drive.google.com/file/d/1a6TQws6-g9TCEym0-okK_gXJ5DWdl2d-/view?usp=sharing" target="_blank" rel="noreferrer"> Click here to view my resume</a></b><br /><br />
             <b>Open for: </b>Web Dev internships / freelancing.<br /><br />
             <b>Communication languages:</b> English, Kannada, Hindi and basic German.<br /><br/> 
             <i class='fas fa-map-marker-alt'>Bangalore, India</i> 
@@ -31,6 +31,7 @@ function AboutMe() {
                 <br />
                 I believe that team work makes "dream work" and enjoy working with diverse talents and perspectives.
               </li>
+
             </ul>
             <br/>
             <b>Education: </b><br />
@@ -47,13 +48,15 @@ function AboutMe() {
                 Class 1 to class 10 in C.B.S.E. board<br />
                 GPA: 8.24</li>
             </ul><br />
-            <Link to='/skills' className='mobile-nav-elements'>View my Skills &rArr;</Link><br/><br/>
             <b>DoB:</b> 30/04/2003<br />
-          </p>
-        </div>
+
+            <Link to='/skills' className='mobile-nav-elements'>View my Skills &rArr;</Link><br/><br/>
+        </p>
+      </div>
       </div>
       <div className="footer-container">
-    </div> 
+      </div>
+    
     </>
   )
 }
