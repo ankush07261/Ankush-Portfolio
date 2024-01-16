@@ -41,6 +41,9 @@ export const cyberSecurity = [
     },
     {
         title: "Wireshark"
+    },
+    {
+        title: "Firewall"
     }
 ]
 export const others = [
