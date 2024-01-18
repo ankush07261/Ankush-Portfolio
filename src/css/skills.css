@@ -17,7 +17,7 @@
     background-color: inherit;
 }
 .skill-container{
-    margin-top: 2rem;
+    margin: 2rem auto 0rem auto;
     width:100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
@@ -43,7 +43,7 @@
     grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
     gap: 1rem;
     grid-auto-rows: auto;
-    padding: 1rem;
+    padding: 0.6rem;
     text-align: justify;
     color: black;
     gap: 1rem;
@@ -61,4 +61,16 @@
 }
 .skill-card p{
     color: black;
+}
+
+@media only screen and (max-width: 790px){
+    .skill-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .skills{
+        width:96%;
+        margin: auto;
+    }
 }
