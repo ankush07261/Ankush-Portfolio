@@ -42,7 +42,7 @@ export const demoprojects = [
     // },
     {
         image:  React_crud,
-        title: "React-Redux C.R.U.D.",
+        title: "User management system",
         description:"Built using Redux in reactJS.",
         gitURL: "https://github.com/ankush07261/Redux-CRUD",
         liveURL: "https://ankush-redux-crud.netlify.app/",
