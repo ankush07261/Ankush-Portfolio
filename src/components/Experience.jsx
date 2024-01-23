@@ -19,39 +19,38 @@ function MyWork() {
         {
           project.map((project,index) => (
             <div className="card" key={index}>
-          <img src={project.image} alt='project pic'/>
-          <p>
+              <img src={project.image} alt='project pic'/>
+              <p>
                 <h3>{project.title}</h3><br />
-            <br />
+                <br />
                 <p>{ project.description}</p>
                 <a href={ project.liveURL} className="try-it" target="_blank" rel="noreferrer">Open</a>
-          </p>
-        </div>
+              </p>
+            </div>
           ))
         }
       </div>
 
-      <h2>Some Demo Projects ...</h2>
+      <h2>Other / Demo Projects ...</h2>
       <br/>
       <div className="projects">
         {
           demo.map((demo, index) => (
             <div className="card" key={index}>
-          <img src={demo.image} alt=''/>
-          <p>
+              <img src={demo.image} alt=''/>
+              <p>
                 <h3>{ demo.title}</h3><br />
-            <br />
+                <br />
                 <p>{demo.description}</p>
                 <a href={ demo.liveURL} className="try-it" target="_blank" rel="noreferrer">Open</a>
-                <a className='github-link' href={demo.gitURL} target="_blank" rel="noopener noreferrer">Github</a>
-                
-          </p>
-        </div>
+                <a className='github-link' href={demo.gitURL} target="_blank" rel="noopener noreferrer">Github</a>    
+              </p>
+            </div>
           ))
         }
       </div>
-      </div> 
-      <Link to='/contact' className='mobile-nav-elements'>Contact me &rArr;</Link>
+    </div> 
+    <Link to='/contact' className='mobile-nav-elements'>Contact me &rArr;</Link>
     </>
   )
 }
